@@ -1,0 +1,31 @@
+
+.container{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+  
+}
+#stars{
+    width:300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.star{
+    font-size: 50px;
+    color:white;
+    cursor: pointer;
+}
+.fill_yellow{
+    color:yellow;
+}
+.fill_red{
+    color:red;
+}
+.fill_green{
+    color:green;
+}
